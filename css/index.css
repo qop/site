@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    height: 100%;
+}
+
+#menu {
+    position: fixed;
+    /*right: 0;*/
+    /*#right: 340px;*/
+    top: 28%;
+    left: 80%;
+    width: 90px;
+    /*margin-top: -50px;*/
+    /*padding: 0;*/
+    list-style-type: none;
+    z-index: 70;
+}
+#menu li {
+    float: left;
+}
+
+.icon, .icon:hover {
+    background: url("../img/icon.png") no-repeat;
+    display: block;
+    width: 100px;
+    height: 90px;
+}
+
+.ic1 {
+    background-position: -12px -119px;
+}
+
+.active .ic1, .ic1:hover {
+    background-position: -133px -113px;
+}
+
+.ic2 {
+    background-position: -14px -221px;
+}
+
+.active .ic2, .ic2:hover {
+    background-position: -134px -221px;
+}
+
+.ic3 {
+    background-position: -14px -327px;
+}
+
+.active .ic3, .ic3:hover {
+    background-position: -134px -323px;
+}
+
+.ic4 {
+    background-position: -14px -427px;
+}
+
+.active .ic4, .ic4:hover {
+    background-position: -134px -425px;
+}
+
+.ic5 {
+    background-position: -14px -531px;
+}
+
+.active .ic5, .ic5:hover {
+    background-position: -134px -531px;
+}
+
+.ic6 {
+    background-position: -248px -31px;
+}
+
+.active .ic6, .ic6:hover {
+    background-position: -248px -31px;
+}
+
+.content {
+    height: 1080px;
+    /*height: 640px;*/
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-box {
+    width: 1000px;
+    height: 105px;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 105px;
+    background-color: rgb(30, 77, 148);
+}
+
+.logo {
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 215px;
+    height: 80px;
+    background: url("../img/icon.png") no-repeat -28px -18px;
+    left: 30px;
+    top: 13px;
+}
+
+.logo > div {
+    margin-left: 80px;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+    height: 105px;
+}
+
+.nav li a {
+    font-family: "微软雅黑", Microsoft YaHei;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 32px;
+    text-decoration: none;
+    display: block;
+    width: 165px;
+    height: 105px;
+    text-align: center;
+    line-height: 105px;
+}
+
+.nav1 {
+    margin-left: 75px;
+}
+
+.nav1:hover {
+    background-color: rgb(15, 100, 227);
+}
+
+.nav2:hover {
+    background-color: rgb(41, 197, 114);
+}
+
+.nav3:hover {
+    background-color: rgb(249, 53, 53);
+}
+
+.nav4:hover {
+    background-color: rgb(253, 153, 18);
+}
+
+.weixin {
+    display: none;
+    position: relative;
+    float: right;
+    z-index: 10;
+}
+.p4 span{
+    float: right;
+    position: relative;
+    margin-top:86%;
+    /*position: absolute;*/
+    /*bottom: 200px;*/
+}
+
+.p1 {
+    background: url("../img/bg1.jpg") top center no-repeat;
+}
+.p1 .content{
+    background: url("../img/cont_bg1.jpg") top center no-repeat;
+}
+.p2 {
+    background: url("../img/bg2.jpg") top center no-repeat;
+}
+.p2 .content{
+    background: url("../img/cont_bg2.jpg") top center no-repeat;
+}
+.p3 {
+    background: url("../img/bg3.jpg") top center no-repeat;
+}
+.p3 .content{
+    background: url("../img/cont_bg3.jpg") top center no-repeat;
+}
+.p4 {
+    background: url("../img/bg4.jpg") top center no-repeat;
+}
+.p4 .content{
+    background: url("../img/cont_bg4.jpg") top center no-repeat;
+}
+.p5 {
+    background: url("../img/bg5.jpg") top center no-repeat;
+}
+.p5  .content{
+    background: url("../img/cont_bg5.jpg") top center no-repeat;
+}
+.parallax_box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.layer .inner {
+    position: absolute;
+}
+
+#layer1 .inner {
+    width: 1000px;
+    height: 250px;
+    background: url("../img/pic.png") no-repeat 0 0;
+    left: -450px;
+    top: -40px;
+}
+
+#layer2 .inner {
+    left: -450px;
+    top: -40px;
+}
+#layer3 .inner{
+    width: 1000px;
+    height: 250px;
+    background: url("../img/pic.png") no-repeat 0px -300px;
+    left: -450px;
+    top: 260px;
+}
+#layer4 .inner{
+    width: 1000px;
+    height: 250px;
+    background: url("../img/pic.png") no-repeat 0px -600px;
+    left: -450px;
+    top: 550px;
+}
+#layer5 .inner{
+    width: 1000px;
+    height: 250px;
+    background: url("../img/pic.png") no-repeat -1000px 0px;
+    left: 550px;
+    top: -40px;
+}
+#layer6 .inner{
+    width: 1000px;
+    height: 250px;
+    background: url("../img/pic.png") no-repeat -1000px -300px;
+    left: 550px;
+    top: 260px;
+}
+#layer7 .inner{
+    width: 1000px;
+    height: 250px;
+    background: url("../img/pic.png") no-repeat -1000px -600px;
+    left: 550px;
+    top: 550px;
+}
+
+
+.p5 a {
+    font-family: "微软雅黑", Microsoft YaHei;
+    text-align: center;
+    line-height: 110px;
+    font-size: 40px;
+    display: block;
+    text-decoration: none;
+    width: 340px;
+    height: 110px;
+    position: absolute;
+    font-weight: bold;
+    color: #000000;
+}
+
+.btn1 {
+    background-color: yellow;
+    left: 350px;
+    top: 140px;
+}
+
+.btn2 {
+    background-color: red;
+    left: 350px;
+    top: 310px;
+}
